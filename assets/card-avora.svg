@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 190" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-card-avora" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e17" />
+      <stop offset="100%" stop-color="#06080d" />
+    </linearGradient>
+    <linearGradient id="border-card-avora" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.6" />
+      <stop offset="40%" stop-color="#818cf8" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.3" />
+    </linearGradient>
+    <radialGradient id="glow-card-avora" cx="3%" cy="20%" r="35%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.14" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </radialGradient>
+    <style>
+      .t-card-avora { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 19px; font-weight: 700; fill: #f8fafc; letter-spacing: -0.3px; }
+      .d-card-avora { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 13.5px; font-weight: 400; fill: #94a3b8; line-height: 1.5; }
+      .b-card-avora { font-family: ui-monospace, SFMono-Regular, monospace; font-size: 9.5px; font-weight: 700; fill: #38bdf8; letter-spacing: 0.8px; }
+      .h-card-avora { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 12.5px; font-weight: 500; fill: #cbd5e1; }
+    </style>
+  </defs>
+
+  <!-- Base Card Frame -->
+  <rect x="1" y="1" width="878" height="188" rx="14" fill="url(#bg-card-avora)" stroke="url(#border-card-avora)" stroke-width="1.2" />
+  <rect x="1" y="1" width="878" height="188" rx="14" fill="url(#glow-card-avora)" />
+
+  <!-- Left Accent Bar -->
+  <rect x="1" y="24" width="3.5" height="42" rx="1.75" fill="#38bdf8" />
+
+  <!-- Icon Container -->
+  <g transform="translate(28, 24)">
+    <rect width="44" height="44" rx="10" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
+    <path d="M16 14 v16 M20 14 v16 M24 14 v16 M14 14 h12 a4 4 0 0 1 4 4 v4 a4 4 0 0 1 -4 4 h-12 z" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Title &amp; Badge -->
+  <g transform="translate(84, 34)">
+    <text x="0" y="0" class="t-card-avora">Avora Restaurant Ecosystem</text>
+    <rect x="305.2" y="-15" width="187.0" height="20" rx="5" fill="#38bdf8" fill-opacity="0.12" stroke="#38bdf8" stroke-width="0.8" />
+    <text x="398.7" y="-1.5" text-anchor="middle" class="b-card-avora">ENTERPRISE OMNICHANNEL POS</text>
+  </g>
+
+  <!-- External Link Icon -->
+  <g transform="translate(832, 28)">
+    <circle cx="14" cy="14" r="14" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
+    <path d="M10 18 L18 10 M18 10 L13 10 M18 10 L18 15" stroke="#38bdf8" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Description Lines -->
+  <g transform="translate(84, 68)">
+    <text x="0" y="0" class="d-card-avora">Full-scale omnichannel restaurant management suite combining Next.js 16 web ordering with loyalty mechanics,</text>
+    <text x="0" y="20" class="d-card-avora">NestJS WebSocket API, and dual .NET 8 WPF desktop clients with hardware ESC/POS thermal printing.</text>
+  </g>
+
+  <!-- Key Highlights -->
+  <g transform="translate(84, 118)">
+    <text x="0" y="0" class="h-card-avora">
+      <tspan fill="#38bdf8" font-weight="600">Key Highlights:</tspan> Google Gemini Voice Ordering ("AvoBot") • Dexie Offline Cache • SePay Instant Banking • Thermal Print Driver
+    </text>
+  </g>
+
+  <!-- Tech Badges -->
+    <g transform="translate(32, 146)">
+      <rect width="95.0" height="24" rx="6" fill="#111827" fill-opacity="0.9" stroke="#334155" stroke-width="0.8" />
+      <text x="47.5" y="16" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11" font-weight="600" fill="#94a3b8">Next.js 16</text>
+    </g>
+    <g transform="translate(135.0, 146)">
+      <rect width="80.0" height="24" rx="6" fill="#111827" fill-opacity="0.9" stroke="#334155" stroke-width="0.8" />
+      <text x="40.0" y="16" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11" font-weight="600" fill="#94a3b8">React 19</text>
+    </g>
+    <g transform="translate(223.0, 146)">
+      <rect width="87.5" height="24" rx="6" fill="#111827" fill-opacity="0.9" stroke="#334155" stroke-width="0.8" />
+      <text x="43.75" y="16" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11" font-weight="600" fill="#94a3b8">NestJS 11</text>
+    </g>
+    <g transform="translate(318.5, 146)">
+      <rect width="95.0" height="24" rx="6" fill="#111827" fill-opacity="0.9" stroke="#334155" stroke-width="0.8" />
+      <text x="47.5" y="16" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11" font-weight="600" fill="#94a3b8">.NET 8 WPF</text>
+    </g>
+    <g transform="translate(421.5, 146)">
+      <rect width="65.0" height="24" rx="6" fill="#111827" fill-opacity="0.9" stroke="#334155" stroke-width="0.8" />
+      <text x="32.5" y="16" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11" font-weight="600" fill="#94a3b8">Prisma</text>
+    </g>
+    <g transform="translate(494.5, 146)">
+      <rect width="87.5" height="24" rx="6" fill="#111827" fill-opacity="0.9" stroke="#334155" stroke-width="0.8" />
+      <text x="43.75" y="16" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11" font-weight="600" fill="#94a3b8">Socket.io</text>
+    </g>
+    <g transform="translate(590.0, 146)">
+      <rect width="80.0" height="24" rx="6" fill="#111827" fill-opacity="0.9" stroke="#334155" stroke-width="0.8" />
+      <text x="40.0" y="16" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11" font-weight="600" fill="#94a3b8">Dexie.js</text>
+    </g>
+</svg>

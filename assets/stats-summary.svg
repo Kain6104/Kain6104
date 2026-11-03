@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 145" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sum-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e17" />
+      <stop offset="100%" stop-color="#06080d" />
+    </linearGradient>
+    <linearGradient id="sum-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.4" />
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.3" />
+    </linearGradient>
+    <style>
+      .hdr { font-family: ui-monospace, monospace; font-size: 11px; font-weight: 700; fill: #38bdf8; letter-spacing: 0.8px; }
+      .lbl { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 12.5px; font-weight: 600; fill: #e2e8f0; }
+      .sub { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 11.5px; font-weight: 400; fill: #94a3b8; }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="878" height="143" rx="14" fill="url(#sum-bg)" stroke="url(#sum-border)" stroke-width="1.2" />
+
+  <!-- Column 1: Multi-Platform Architecture -->
+  <g transform="translate(30, 24)">
+    <text x="0" y="0" class="hdr">// ARCHITECTURE</text>
+    <g transform="translate(0, 24)">
+      <circle cx="4" cy="4" r="3" fill="#38bdf8" />
+      <text x="14" y="8" class="lbl">Full-Stack Ecosystems</text>
+      <text x="14" y="25" class="sub">Next.js web &amp; .NET 8 WPF desktop</text>
+    </g>
+    <g transform="translate(0, 68)">
+      <circle cx="4" cy="4" r="3" fill="#38bdf8" />
+      <text x="14" y="8" class="lbl">Offline-First Resilience</text>
+      <text x="14" y="25" class="sub">IndexedDB local sync &amp; ESC/POS print</text>
+    </g>
+  </g>
+
+  <!-- Divider 1 -->
+  <line x1="295" y1="20" x2="295" y2="125" stroke="#1e293b" stroke-width="1" />
+
+  <!-- Column 2: Backend &amp; Distributed Streams -->
+  <g transform="translate(325, 24)">
+    <text x="0" y="0" class="hdr">// DISTRIBUTED &amp; BACKEND</text>
+    <g transform="translate(0, 24)">
+      <circle cx="4" cy="4" r="3" fill="#818cf8" />
+      <text x="14" y="8" class="lbl">Event Streams &amp; Reactive</text>
+      <text x="14" y="25" class="sub">Apache Kafka &amp; Spring WebFlux</text>
+    </g>
+    <g transform="translate(0, 68)">
+      <circle cx="4" cy="4" r="3" fill="#818cf8" />
+      <text x="14" y="8" class="lbl">High-Integrity APIs</text>
+      <text x="14" y="25" class="sub">NestJS WebSockets &amp; Spring Security</text>
+    </g>
+  </g>
+
+  <!-- Divider 2 -->
+  <line x1="590" y1="20" x2="590" y2="125" stroke="#1e293b" stroke-width="1" />
+
+  <!-- Column 3: Systems &amp; AI Integration -->
+  <g transform="translate(620, 24)">
+    <text x="0" y="0" class="hdr">// INFRASTRUCTURE &amp; AI</text>
+    <g transform="translate(0, 24)">
+      <circle cx="4" cy="4" r="3" fill="#34d399" />
+      <text x="14" y="8" class="lbl">Linux VPS &amp; Networking</text>
+      <text x="14" y="25" class="sub">Domain routing, Docker &amp; WinServer</text>
+    </g>
+    <g transform="translate(0, 68)">
+      <circle cx="4" cy="4" r="3" fill="#34d399" />
+      <text x="14" y="8" class="lbl">Applied AI &amp; Voice</text>
+      <text x="14" y="25" class="sub">Gemini LLM ordering &amp; speech bots</text>
+    </g>
+  </g>
+</svg>

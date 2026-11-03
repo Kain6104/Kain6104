@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 190" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-card-sushiwa" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e17" />
+      <stop offset="100%" stop-color="#06080d" />
+    </linearGradient>
+    <linearGradient id="border-card-sushiwa" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.6" />
+      <stop offset="40%" stop-color="#06b6d4" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.3" />
+    </linearGradient>
+    <radialGradient id="glow-card-sushiwa" cx="3%" cy="20%" r="35%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.14" />
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0" />
+    </radialGradient>
+    <style>
+      .t-card-sushiwa { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 19px; font-weight: 700; fill: #f8fafc; letter-spacing: -0.3px; }
+      .d-card-sushiwa { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 13.5px; font-weight: 400; fill: #94a3b8; line-height: 1.5; }
+      .b-card-sushiwa { font-family: ui-monospace, SFMono-Regular, monospace; font-size: 9.5px; font-weight: 700; fill: #34d399; letter-spacing: 0.8px; }
+      .h-card-sushiwa { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 12.5px; font-weight: 500; fill: #cbd5e1; }
+    </style>
+  </defs>
+
+  <!-- Base Card Frame -->
+  <rect x="1" y="1" width="878" height="188" rx="14" fill="url(#bg-card-sushiwa)" stroke="url(#border-card-sushiwa)" stroke-width="1.2" />
+  <rect x="1" y="1" width="878" height="188" rx="14" fill="url(#glow-card-sushiwa)" />
+
+  <!-- Left Accent Bar -->
+  <rect x="1" y="24" width="3.5" height="42" rx="1.75" fill="#10b981" />
+
+  <!-- Icon Container -->
+  <g transform="translate(28, 24)">
+    <rect width="44" height="44" rx="10" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
+    <path d="M14 16 h16 a2 2 0 0 1 2 2 v4 a2 2 0 0 1 -2 2 h-16 a2 2 0 0 1 -2 -2 v-4 a2 2 0 0 1 2 -2 z M14 24 h16 a2 2 0 0 1 2 2 v4 a2 2 0 0 1 -2 2 h-16 a2 2 0 0 1 -2 -2 v-4 a2 2 0 0 1 2 -2 z M22 10 L18 22 h8 L22 34" fill="none" stroke="#34d399" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Title &amp; Badge -->
+  <g transform="translate(84, 34)">
+    <text x="0" y="0" class="t-card-sushiwa">Sushi-Wa Micro-System</text>
+    <rect x="249.2" y="-15" width="206.5" height="20" rx="5" fill="#34d399" fill-opacity="0.12" stroke="#34d399" stroke-width="0.8" />
+    <text x="352.45" y="-1.5" text-anchor="middle" class="b-card-sushiwa">REACTIVE EVENT-DRIVEN BACKEND</text>
+  </g>
+
+  <!-- External Link Icon -->
+  <g transform="translate(832, 28)">
+    <circle cx="14" cy="14" r="14" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
+    <path d="M10 18 L18 10 M18 10 L13 10 M18 10 L18 15" stroke="#10b981" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Description Lines -->
+  <g transform="translate(84, 68)">
+    <text x="0" y="0" class="d-card-sushiwa">High-throughput restaurant ordering backend engineered with Java 17 and Spring Boot 3.3. Features Kafka messaging</text>
+    <text x="0" y="20" class="d-card-sushiwa">streams, WebFlux non-blocking reactive pipelines, Spring Security OAuth2, and OpenAI smart menu assist.</text>
+  </g>
+
+  <!-- Key Highlights -->
+  <g transform="translate(84, 118)">
+    <text x="0" y="0" class="h-card-sushiwa">
+      <tspan fill="#10b981" font-weight="600">Key Highlights:</tspan> Spring Kafka Event Streams • WebFlux Reactive IO • Dockerized Linux VPS Deployment • Locust Load Tested
+    </text>
+  </g>
+
+  <!-- Tech Badges -->
+    <g transform="translate(32, 146)">
+      <rect width="72.5" height="24" rx="6" fill="#111827" fill-opacity="0.9" stroke="#334155" stroke-width="0.8" />
+      <text x="36.25" y="16" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11" font-weight="600" fill="#94a3b8">Java 17</text>
+    </g>
+    <g transform="translate(112.5, 146)">
+      <rect width="132.5" height="24" rx="6" fill="#111827" fill-opacity="0.9" stroke="#334155" stroke-width="0.8" />
+      <text x="66.25" y="16" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11" font-weight="600" fill="#94a3b8">Spring Boot 3.3</text>
+    </g>
+    <g transform="translate(253.0, 146)">
+      <rect width="110.0" height="24" rx="6" fill="#111827" fill-opacity="0.9" stroke="#334155" stroke-width="0.8" />
+      <text x="55.0" y="16" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11" font-weight="600" fill="#94a3b8">Spring Kafka</text>
+    </g>
+    <g transform="translate(371.0, 146)">
+      <rect width="72.5" height="24" rx="6" fill="#111827" fill-opacity="0.9" stroke="#334155" stroke-width="0.8" />
+      <text x="36.25" y="16" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11" font-weight="600" fill="#94a3b8">WebFlux</text>
+    </g>
+    <g transform="translate(451.5, 146)">
+      <rect width="65.0" height="24" rx="6" fill="#111827" fill-opacity="0.9" stroke="#334155" stroke-width="0.8" />
+      <text x="32.5" y="16" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11" font-weight="600" fill="#94a3b8">Docker</text>
+    </g>
+    <g transform="translate(524.5, 146)">
+      <rect width="57.5" height="24" rx="6" fill="#111827" fill-opacity="0.9" stroke="#334155" stroke-width="0.8" />
+      <text x="28.75" y="16" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11" font-weight="600" fill="#94a3b8">MySQL</text>
+    </g>
+    <g transform="translate(590.0, 146)">
+      <rect width="65.0" height="24" rx="6" fill="#111827" fill-opacity="0.9" stroke="#334155" stroke-width="0.8" />
+      <text x="32.5" y="16" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11" font-weight="600" fill="#94a3b8">Locust</text>
+    </g>
+</svg>

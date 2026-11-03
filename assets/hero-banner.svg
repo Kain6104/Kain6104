@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 340" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080b11" />
+      <stop offset="50%" stop-color="#0d111c" />
+      <stop offset="100%" stop-color="#07090e" />
+    </linearGradient>
+
+    <!-- Border Gradient -->
+    <linearGradient id="border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.6" />
+      <stop offset="30%" stop-color="#818cf8" stop-opacity="0.3" />
+      <stop offset="70%" stop-color="#1e293b" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.5" />
+    </linearGradient>
+
+    <!-- Radial Glows -->
+    <radialGradient id="glow-cyan" cx="15%" cy="20%" r="45%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glow-violet" cx="85%" cy="30%" r="45%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.16" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glow-blue" cx="50%" cy="85%" r="40%">
+      <stop offset="0%" stop-color="#2563eb" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#2563eb" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Text Gradients -->
+    <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="40%" stop-color="#f8fafc" />
+      <stop offset="80%" stop-color="#93c5fd" />
+      <stop offset="100%" stop-color="#c4b5fd" />
+    </linearGradient>
+
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#22d3ee" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid-pattern" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#334155" stroke-width="0.75" stroke-opacity="0.25" />
+      <circle cx="32" cy="0" r="1" fill="#38bdf8" fill-opacity="0.3" />
+    </pattern>
+
+    <style>
+      @keyframes pulseDot {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.4; transform: scale(0.85); }
+      }
+      @keyframes shimmer {
+        0% { stop-color: #38bdf8; }
+        50% { stop-color: #a855f7; }
+        100% { stop-color: #38bdf8; }
+      }
+      .dot-pulse {
+        transform-origin: 58px 46px;
+        animation: pulseDot 2.4s ease-in-out infinite;
+      }
+      .font-sans {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "SF Pro Display", Roboto, "Helvetica Neue", Arial, sans-serif;
+      }
+      .font-mono {
+        font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+      }
+    </style>
+  </defs>
+
+  <!-- Outer Card Frame -->
+  <rect x="2" y="2" width="916" height="336" rx="20" fill="url(#bg-grad)" stroke="url(#border-grad)" stroke-width="1.5" />
+
+  <!-- Ambient Glows -->
+  <rect x="2" y="2" width="916" height="336" rx="20" fill="url(#glow-cyan)" />
+  <rect x="2" y="2" width="916" height="336" rx="20" fill="url(#glow-violet)" />
+  <rect x="2" y="2" width="916" height="336" rx="20" fill="url(#glow-blue)" />
+
+  <!-- Background Grid Texture -->
+  <rect x="2" y="2" width="916" height="336" rx="20" fill="url(#grid-pattern)" />
+
+  <!-- Top Status Badge -->
+  <g transform="translate(42, 34)">
+    <rect x="0" y="0" width="378" height="28" rx="14" fill="#0f172a" fill-opacity="0.8" stroke="#334155" stroke-width="1" />
+    <circle class="dot-pulse" cx="16" cy="14" r="4.5" fill="#10b981" />
+    <circle cx="16" cy="14" r="8" fill="#10b981" fill-opacity="0.2" />
+    <text x="32" y="18" class="font-mono" font-size="11" font-weight="600" fill="#94a3b8" letter-spacing="0.5">
+      FULL-STACK ENGINEER <tspan fill="#475569">|</tspan> <tspan fill="#38bdf8">SYSTEM ARCHITECT</tspan>
+    </text>
+  </g>
+
+  <!-- Main Headline -->
+  <g transform="translate(42, 120)">
+    <text x="0" y="0" class="font-sans" font-size="38" font-weight="800" fill="url(#title-grad)" letter-spacing="-0.8">
+      Huynh Thanh Phat
+    </text>
+    <text x="365" y="-6" class="font-mono" font-size="14" font-weight="600" fill="#64748b" letter-spacing="0.5">
+      @Kain6104
+    </text>
+  </g>
+
+  <!-- Subheadline / Value Proposition -->
+  <g transform="translate(42, 160)">
+    <text x="0" y="0" class="font-sans" font-size="17" font-weight="500" fill="#e2e8f0">
+      Engineering resilient web platforms, high-throughput microservices &amp; native desktop systems.
+    </text>
+    <text x="0" y="26" class="font-sans" font-size="14" font-weight="400" fill="#94a3b8">
+      Combining solid software design, Linux infrastructure management, and applied AI workflows.
+    </text>
+  </g>
+
+  <!-- Tech Focus Badges -->
+  <g transform="translate(42, 230)">
+    <!-- Pill 1 -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="138" height="32" rx="8" fill="#111827" fill-opacity="0.8" stroke="#1f2937" stroke-width="1" />
+      <text x="14" y="20" class="font-mono" font-size="11.5" font-weight="600" fill="#38bdf8">⚛ Next.js / React</text>
+    </g>
+
+    <!-- Pill 2 -->
+    <g transform="translate(148, 0)">
+      <rect x="0" y="0" width="134" height="32" rx="8" fill="#111827" fill-opacity="0.8" stroke="#1f2937" stroke-width="1" />
+      <text x="14" y="20" class="font-mono" font-size="11.5" font-weight="600" fill="#e06c75">⚡ NestJS / Node</text>
+    </g>
+
+    <!-- Pill 3 -->
+    <g transform="translate(292, 0)">
+      <rect x="0" y="0" width="144" height="32" rx="8" fill="#111827" fill-opacity="0.8" stroke="#1f2937" stroke-width="1" />
+      <text x="14" y="20" class="font-mono" font-size="11.5" font-weight="600" fill="#4ade80">☕ Spring Boot</text>
+    </g>
+
+    <!-- Pill 4 -->
+    <g transform="translate(446, 0)">
+      <rect x="0" y="0" width="136" height="32" rx="8" fill="#111827" fill-opacity="0.8" stroke="#1f2937" stroke-width="1" />
+      <text x="14" y="20" class="font-mono" font-size="11.5" font-weight="600" fill="#a78bfa">🖥 .NET 8 / C#</text>
+    </g>
+
+    <!-- Pill 5 -->
+    <g transform="translate(592, 0)">
+      <rect x="0" y="0" width="128" height="32" rx="8" fill="#111827" fill-opacity="0.8" stroke="#1f2937" stroke-width="1" />
+      <text x="14" y="20" class="font-mono" font-size="11.5" font-weight="600" fill="#38bdf8">🐧 Linux VPS</text>
+    </g>
+
+    <!-- Pill 6 -->
+    <g transform="translate(730, 0)">
+      <rect x="0" y="0" width="146" height="32" rx="8" fill="#111827" fill-opacity="0.8" stroke="#1f2937" stroke-width="1" />
+      <text x="14" y="20" class="font-mono" font-size="11.5" font-weight="600" fill="#fbbf24">✦ Generative AI</text>
+    </g>
+  </g>
+
+  <!-- Bottom Accent Strip -->
+  <g transform="translate(42, 298)">
+    <text x="0" y="0" class="font-sans" font-size="12" font-weight="500" fill="#64748b">
+      Industrial University of Ho Chi Minh City (IUH) • Information Technology Senior
+    </text>
+    <text x="836" y="0" text-anchor="end" class="font-mono" font-size="11" font-weight="500" fill="#0ea5e9">
+      BUILDING FOR RESILIENCE ↗
+    </text>
+  </g>
+</svg>
